@@ -13,8 +13,6 @@
 # limitations under the License.
 
 import os
-import yaml
-import glob
 import cv2
 import numpy as np
 import math
@@ -40,7 +38,7 @@ from pipe_utils import PipeTimer
 from pipe_utils import get_test_images, crop_image_with_det, crop_image_with_mot, parse_mot_res, parse_mot_keypoint
 from pipe_utils import PushStream
 
-from python.infer import Detector, DetectorPicoDet
+from python.infer import Detector
 from python.keypoint_infer import KeyPointDetector
 from python.keypoint_postprocess import translate_to_ori_images
 from python.preprocess import decode_image, ShortSizeScale

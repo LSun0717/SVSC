@@ -1310,19 +1310,19 @@ def main(FLAGS):
 
 
 # if __name__ == '__main__':
-#     paddle.enable_static()
+    # paddle.enable_static()
 
-#     # parse params from command
-#     parser = argsparser()
-#     FLAGS = parser.parse_args()
-#     dict_ = vars(FLAGS)
-#     print(dict_)
-#     # FLAGS
-#     FLAGS.config = "deploy/pipeline/config/infer_cfg_pphuman.yml"
-#     FLAGS.rtsp = "rtsp://admin:my550025@192.168.1.64:554/h264/ch1/main/av_stream"
-#     FLAGS.device = "gpu"
-#     FLAGS.device = FLAGS.device.upper()
-#     assert FLAGS.device in ['CPU', 'GPU', 'XPU', 'NPU'
-#                             ], "device should be CPU, GPU, XPU or NPU"
+    # # parse params from command
+    # parser = argsparser()
+    # FLAGS = parser.parse_args()
+    # dict_ = vars(FLAGS)
+    # print(dict_)
+    # # FLAGS
+    # FLAGS.config = "deploy/pipeline/config/infer_cfg_pphuman.yml"
+    # FLAGS.rtsp = "rtsp://admin:my550025@192.168.1.64:554/h264/ch1/main/av_stream"
+    # FLAGS.device = "gpu"
+    # FLAGS.device = FLAGS.device.upper()
+    # assert FLAGS.device in ['CPU', 'GPU', 'XPU', 'NPU'
+    #                         ], "device should be CPU, GPU, XPU or NPU"
 
-#     main(FLAGS=FLAGS)
+    # main(FLAGS=FLAGS)

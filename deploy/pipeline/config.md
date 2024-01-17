@@ -26,7 +26,7 @@ video_dir=None,
 video_file=None
 
 {
-  "input": "stream",
+  "input": "c",
   "stream_url": "rtsp://admin:my550025@192.168.1.64:554/h264/ch1/main/av_stream",
   "algorithm": "fight",
   "device": "gpu"

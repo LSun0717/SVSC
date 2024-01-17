@@ -35,7 +35,7 @@ from paddle.inference import Config, create_predictor
 from python.utils import argsparser, Timer, get_current_memory_mb
 from python.benchmark_utils import PaddleInferBenchmark
 from python.infer import Detector, print_arguments
-from video_action_preprocess import VideoDecoder, Sampler, Scale, CenterCrop, Normalization, Image2Array
+from pphuman.video_action_preprocess import VideoDecoder, Sampler, Scale, CenterCrop, Normalization, Image2Array
 
 
 def softmax(x):

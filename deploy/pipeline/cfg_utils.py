@@ -173,19 +173,19 @@ def argsparser():
         "--draw_center_traj",
         action='store_true',
         help="Whether drawing the trajectory of center")
-    parser.add_argument(
-        "server:app",
-        help="for avoid CLI error")
-    parser.add_argument(
-        "--host",
-        type=str,
-        default="0.0.0.0",
-        help="for avoid CLI error")
-    parser.add_argument(
-        "--port",
-        type=int,
-        default=8000,
-        help="for avoid CLI error")
+    # parser.add_argument(
+    #     "server:app",
+    #     help="for avoid CLI error")
+    # parser.add_argument(
+    #     "--host",
+    #     type=str,
+    #     default="192.168.1.106",
+    #     help="for avoid CLI error")
+    # parser.add_argument(
+    #     "--port",
+    #     type=int,
+    #     default=8000,
+    #     help="for avoid CLI error")
     return parser
 
 
